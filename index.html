@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASE Course</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="copy">
+            <div class="copy__window">
+                <div class="copy__window-name">Proweb</div>
+                <div class="copy__window-btns">
+                    <button>
+                        <img src="img/mini.svg" alt="">
+                    </button>
+                    <button>
+                        <img class="full" src="img/full.svg" alt="">
+                    </button>
+                    <button class="close">
+                        <img src="img/x.svg" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="copy__file">
+                <div class="copy__file-item" data-type="folder">
+                    <img src="./img/directory.webp" class="copy__file-pic" alt="">
+                    <div class="copy__file-title">
+                        Folder name
+                    </div>
+                </div>
+            </div>
+            <div class="context">
+                <div class="context__item" data-curent="copy-folder">Копировать</div>
+                <div class="context__item" data-curent="past-folder">Вставить</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
